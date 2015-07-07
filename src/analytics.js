@@ -276,7 +276,6 @@ function request(data, callback) {
             body: xhr.responseText
         };
 
-        console.log(JSON.stringify(obj));
         if (callback) {
             callback(obj);
         }
