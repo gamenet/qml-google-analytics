@@ -202,7 +202,7 @@ function trackScreen(name, callback) {
     var query = clone(__params);
     query.t = 'screenview';
 
-    request(__params, callback);
+    request(query, callback);
 }
 
 /**
