@@ -174,8 +174,8 @@ function setEncoding(value) {
 }
 
 function setOs(value) {
-    __params['cd0'] = 'OS';
-    __params['cm0'] = value;
+    __params['cd1'] = 'OS';
+    __params['cm1'] = value;
 }
 
 /**

@@ -10,7 +10,7 @@ Rectangle {
     height: 600
 
     Component.onCompleted:  {
-        Ga.setTrackingId('UA-19398372-80');
+        Ga.setTrackingId('UA-XXXXXXXX-XX');
         Ga.setClientId('35009a79-1a05-49d7-b876-2b884d0f825b');
 
         Ga.setApplicationName('Samle');
